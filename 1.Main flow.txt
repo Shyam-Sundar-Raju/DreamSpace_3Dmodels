@@ -1,0 +1,44 @@
+1) Login	//Login, New acc and Forgot pwd are independent
+
+2) AboutUs	//
+
+3) ContactUs	//
+
+4) DreamSpace	//
+
+	i)Chairs	//
+		+Chair	//
+		+TableChair	//
+
+	ii)Cabinets	//
+		+Cabinet	//
+		+Drawer	//
+		+Treasure	//
+
+	iii)Couches	//
+		+Sofa	//
+		+Sofa2	//
+		+Sofa3	//
+
+	iv)Decorations	//
+		+Goblet	//
+		+Horse	//
+		+Cannon	//
+
+	v)Chandliers	//
+		+Chandlier1	//
+		+Chandlier2	//
+
+	vi)Electronics	//
+		+Aircon	//
+		+Camera	//
+
+	vii)Foliages	//
+		+Plant1	//
+		+Plant2	//
+
+	viii)Tools	//
+		+Drill	//
+		+Plane	//
+
+5) Payment	//download and payment are independent

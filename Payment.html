@@ -1,0 +1,39 @@
+<html>
+<head>
+	<title>Payment</title> 
+    <link rel="icon" type="image" href="icon.webp">
+    <script src="common.js"></script>
+	<link rel="stylesheet" href="loginstyle.css"> 
+</head> 
+
+<body style="background-color:black;"> 
+	<div class="container"> 
+<center>
+		<form style="border: solid 5px black;padding: 20px;width:50%; background-color: white;" name="paymentform"> 
+					<h3 class="title" style="text-decoration: underline;">Payment</h3>
+					<div class="inputBox"> 
+						<label for="cardName">Name On Card: </label>
+						<input type="text" name="name" id="cardName" placeholder="Enter card name" required> 
+					</div> <br>
+
+					<div class="inputBox"> 
+						<label for="cardNum">Credit Card Number: </label> 
+						<input type="text" name="number" id="cardNum" placeholder="1111-1111-1111-1111" maxlength="19" required> 
+					</div> <br>
+
+					<div class="inputBox"> 
+						<label for="month">Exp Month:</label>
+                        <input type="month" name="expmonth" id="month" required>
+					</div> <br>
+						<div class="inputBox"> 
+							<label for="cvv">CVV</label> 
+							<input type="password" name="cvv" id="cvv" placeholder="111" required> 
+						</div> <br>
+			<input type="submit" value="Checkout" id="submitbtn" onclick="submitpopup()"> 
+		</form> 
+</center>
+	</div> 
+	<script type="text/javascript" src="index.js"></script> 
+</body> 
+
+</html>

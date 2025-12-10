@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="icon" type="image" href="icon.webp">
+        <title>Login to Dream Space</title>
+        <script src="common.js"></script>
+        <link rel="stylesheet" href="loginstyle.css">
+    </head>
+
+    <body>
+        <h1>Dream Space
+            <div class="rightIntro">
+                <button id="newacc" onClick = "openSite('NewAccount')">New account?</button>
+            </div>
+        </h1>
+        <p id="intro">Bringing your home to life, One pixel at a time</p> <br>
+
+        <center>
+            <form onsubmit="checkLogin()" name="loginform" style="border: solid 5px black;padding: 20px;width:75%;">
+                
+                    <label for="uname"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="uname" required>
+                <br>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                        <br>
+                    <input type="submit" value="Login" id="submitbtn">
+                  
+            </form>
+        </center>
+        <div class="rightIntro">
+            <button id="forgotpwd" onClick = "openSite('ForgotPassword')">Forgot Password?</button>
+        </div>
+    </body>
+</html>

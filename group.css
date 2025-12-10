@@ -1,0 +1,86 @@
+h1,#intro {
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: century gothic;
+}
+
+body {
+    font-size: 30px;
+    background-image: url("Images/bg.png");
+    background-position: 0%;
+    background-attachment: fixed;
+}
+
+.rightIntro {
+    float: right;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+    .displaymodel {
+        text-align: center;
+        font-size: 30px;
+        text-align: center;
+        display: inline-block;
+        margin: 20px;
+        font-family: segoe ui;
+        color: black;
+        text-decoration: none;
+    }
+
+    .displaymodel p {
+        margin: 0px;
+        margin-top: 10px;
+    }
+
+    .displaymodel img {
+        padding: 20px;
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .displaymodel:hover {
+        cursor: pointer;
+    }
+
+    .displaymodel:hover p {
+        background-color: black;
+        color: white;
+    }
+
+    button {
+        font-family: segoe ui;
+        font-size: 30px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        background: none;
+    }
+
+    button:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .margins {
+        display: inline-block;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    body {
+        font-family: century gothic;
+    }

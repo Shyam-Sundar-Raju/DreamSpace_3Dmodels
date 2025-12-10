@@ -1,0 +1,60 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="model.css">
+    <script src="common.js"></script>
+    <link rel="icon" type="image" href="icon.webp">
+    <title>Welcome to Dream Space</title>
+</head>
+
+<body>
+    <h1>Dream Space
+        <div class="rightIntro">
+            <button id="home" onclick="openSite('DreamSpace')">Home</button>
+            <button id="back" onclick="openSite('Couches')">Back</button>    
+        </div>
+    </h1>
+
+    <p id="intro">Bringing your home to life, One pixel at a time</p> <br>
+
+    <img src="Sofa2/sofa2c.webp">    
+    <p id="about">
+        <font id="pfont">About this model </font><br>
+        Width: 2.6 meters <br>  
+        Triangle count: 7K <br>   
+        File size: 1.81 mb <br><br>
+
+        <button id="downloadbtn" onclick="payCheck()">Download this model</button>
+        <a href="Sofa2/sofa2.zip" id="pay_btn" style="display: none;font-size: 2vw;" download>Click to download</a>
+    </p>
+
+    <div id="gallery">
+        <div class="row">
+            <div class="column">
+              <img src="Sofa2/sofa2_f.1.webp" alt="Front" style="width:100%" onclick="expand(this);">    
+            </div>
+            <div class="column">
+                <img src="Sofa2/sofa2_f.2.webp" alt="Right" style="width:100%" onclick="expand(this);">    
+            </div>
+            <div class="column">
+                <img src="Sofa2/sofa2_f.3.webp" alt="Rear" style="width:100%" onclick="expand(this);">    
+            </div>
+            <div class="column">
+                <img src="Sofa2/sofa2_f.4.webp" alt="Left" style="width:100%" onclick="expand(this);">    
+            </div>
+            <div class="column">
+                <img src="Sofa2/sofa2_f.5.webp" alt="Bottom" style="width:100%" onclick="expand(this);">    
+            </div>
+            <div class="column">
+                <img src="Sofa2/sofa2_f.6.webp" alt="Top" style="width:100%" onclick="expand(this);">    
+            </div>
+          </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+</body>
+
+</html>
